@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package chat;
 
 import java.sql.Connection;
@@ -18,26 +14,16 @@ import javafx.stage.Stage;
 import javafx.scene.layout.AnchorPane;
 /**
  *
- * @author Sam
+ * @author Sumit Ahir
  */
 public class Chat extends Application {
     
     private AnchorPane root;
-    
-    
-  
-    
-    
+ 
     
     public Chat(){
      // Add some sample data
-       
-//        Msgs.add(new ChatModel("Ruth"));
-        
     }
-        
-  
-        
     
     
     @Override
@@ -75,7 +61,6 @@ public class Chat extends Application {
                 
                 }
         catch(SQLException s){
-            
             
         }
         
